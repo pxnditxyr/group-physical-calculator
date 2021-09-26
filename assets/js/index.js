@@ -1,1 +1,4 @@
-console.log( "Initializing Group Calculator" )
+const displayResponsiveNavbar = () => {
+    const navbar = document.querySelector( "nav" );
+    ( navbar.className === "" ) ? navbar.className = "responsive" : navbar.className = "";
+}
