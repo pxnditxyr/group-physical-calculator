@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../assets/css/index.css">
+        <link rel="stylesheet" href="../../assets/css/forms.css">
+        <title> Physical Calculator </title>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="../../" class="active"> Home </a>
+                <a href="../../geometric-figures-screen/rectangles-screen.html"> Rectangles </a>
+                <a href="#triangle"> Triangle </a>
+                <a href="#circle"> Circle </a>
+                <a href="#cylinder"> Cylinder </a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> ≡ </a>
+            </nav>
+        </header>
+
+        <main>
+            <article class="card">
+                <section class="card-image">
+                    <img src="../../assets/images/geometric-figures/rectangles/rectangle.png" />
+                </section>
+                <section class="card-container">
+                    <section class="card-title">
+                        <h2> Get Area and Perimeter of Rectangle </h2>
+                        <p> Choose the desired rectangle </p>
+                    </section>
+                    <section class="card-inputs">
+                        <label for="rectangle-breadth"> Base </label>
+                        <input
+                            id="rectangle-breadth"
+                            type="number"
+                            placeholder="Breadth"
+                        />
+                        <label for="rectangle-height"> Height </label>
+                        <input 
+                            id="rectangle-height"
+                            type="number"
+                            placeholder="Height"
+                        />
+                    </section>
+                    <section class="card-results">
+                        <span> The Area is: </span>
+                        <p id="result-rectangle-area">  </p>
+                        <span> The Perimeter is: </span>
+                        <p id="result-rectangle-perimeter">  </p>
+                    </section>
+                    <section class="card-options">
+                        <button onclick="calculateRectangleArea()"> Get Area </button>
+                        <button onclick="calculateRectanglePerimeter()"> Get Perimeter </button>
+                    </section>
+                </section>
+            </article>
+        </main>
+        
+        <footer>
+            <a href="mailto:pxnditxyr@gmail.com"> Enrique Ricaldi </a>
+            <p> Copyright 2021 </p>
+        </footer>
+        
+        <script src="../../assets/js/index.js"></script>
+        <script src="../../assets/js/geometric-figures/rectangle-calculations.js"></script>
+
+    </body>
+</html>
