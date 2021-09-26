@@ -1,10 +1,15 @@
 :root {
     --background-page-color: #21202A;
     --background-nav-color: #333;
+    --background-input-color: #FFF;
+    --text-input-color: #000;
     --text-page-color: #FFF;
     --text-nav-color: #F2F2F2;
+    --text-card-title-p-color: #aaa;
     --border-a-color: #0FF;
     --border-card-color: #FFF;
+    --border-input-color: #F0F;
+    --border-span-color: #C6D57E;
 }
 
 * {
@@ -92,7 +97,12 @@ img {
 }
 
 .card-title {
-    line-height: 30px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .card-title h2 {
@@ -100,8 +110,8 @@ img {
 }
 
 .card-title p {
-    color: #aaa;
-    font-size: 1em;
+    color: var( --text-card-title-p-color );
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -137,7 +147,6 @@ footer {
 }
 
 footer a {
-    color: #fff;
     font-size: 1.5em;
 }
 
