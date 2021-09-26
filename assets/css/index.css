@@ -175,7 +175,7 @@ footer p {
 }
 
 
-@media screen and ( max-width: 600px ) {
+@media screen and ( max-width: 700px ) {
     nav a:not( :first-child ) {
         display: none;
     }
