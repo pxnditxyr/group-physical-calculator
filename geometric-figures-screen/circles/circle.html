@@ -24,7 +24,7 @@
         <main>
             <article class="card">
                 <section class="card-image">
-                    <img src="../../assets/images/geometric-figures/rectangles/rectangle.png" />
+                    <img src="../../assets/images/geometric-figures/circles/circle.png" />
                 </section>
                 <section class="card-container">
                     <section class="card-title">
@@ -32,28 +32,22 @@
                         <p> Choose the desired rectangle </p>
                     </section>
                     <section class="card-inputs">
-                        <label for="rectangle-breadth"> Base </label>
-                        <input
-                            id="rectangle-breadth"
-                            type="number"
-                            placeholder="Breadth"
-                        />
-                        <label for="rectangle-height"> Height </label>
+                        <label for="circle-radio"> Radio </label>
                         <input 
-                            id="rectangle-height"
+                            id="circle-radio"
                             type="number"
-                            placeholder="Height"
+                            placeholder="Radio"
                         />
                     </section>
                     <section class="card-results">
                         <span> The Area is: </span>
-                        <p id="result-rectangle-area">  </p>
+                        <p id="result-circle-area">  </p>
                         <span> The Perimeter is: </span>
-                        <p id="result-rectangle-perimeter">  </p>
+                        <p id="result-circle-perimeter">  </p>
                     </section>
                     <section class="card-options">
-                        <button onclick="calculateRectangleArea()"> Get Area </button>
-                        <button onclick="calculateRectanglePerimeter()"> Get Perimeter </button>
+                        <button onclick="calculateCircleArea()"> Get Area </button>
+                        <button onclick="calculateCirclePerimeter()"> Get Perimeter </button>
                     </section>
                 </section>
             </article>
@@ -65,7 +59,7 @@
         </footer>
         
         <script src="../../assets/js/index.js"></script>
-        <script src="../../assets/js/geometric-figures/rectangle-calculations.js"></script>
+        <script src="../../assets/js/geometric-figures/circle-calculations.js"></script>
 
     </body>
 </html>
