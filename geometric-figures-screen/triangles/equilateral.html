@@ -24,36 +24,30 @@
         <main>
             <article class="card">
                 <section class="card-image">
-                    <img src="../../assets/images/geometric-figures/rectangles/rectangle.png" />
+                    <img src="../../assets/images/geometric-figures/triangles/equilateral.png" />
                 </section>
                 <section class="card-container">
                     <section class="card-title">
-                        <h2> Get Area and Perimeter of Rectangle </h2>
-                        <p> Choose the desired rectangle </p>
+                        <h2> Get Area and Perimeter of Equilateral Triangle </h2>
+                        <p> Choose the desired Triangle </p>
                     </section>
                     <section class="card-inputs">
-                        <label for="rectangle-breadth"> Base </label>
+                        <label for="lado-triangulo"> Side</label>
                         <input
-                            id="rectangle-breadth"
+                            id="lado-triangulo"
                             type="number"
-                            placeholder="Breadth"
-                        />
-                        <label for="rectangle-height"> Height </label>
-                        <input 
-                            id="rectangle-height"
-                            type="number"
-                            placeholder="Height"
+                            placeholder=""
                         />
                     </section>
                     <section class="card-results">
                         <span> The Area is: </span>
-                        <p id="result-rectangle-area">  </p>
+                        <p id="result-triangle-area">  </p>
                         <span> The Perimeter is: </span>
-                        <p id="result-rectangle-perimeter">  </p>
+                        <p id="result-triangle-perimeter">  </p>
                     </section>
                     <section class="card-options">
-                        <button onclick="calculateRectangleArea()"> Get Area </button>
-                        <button onclick="calculateRectanglePerimeter()"> Get Perimeter </button>
+                        <button onclick="calcularAreaEquilatero()"> Get Area </button>
+                        <button onclick="calcularPerimetroEquilatero()"> Get Perimeter </button>
                     </section>
                 </section>
             </article>
@@ -66,6 +60,6 @@
         </footer>
         
         <script src="../../assets/js/index.js"></script>
-        <script src="../../assets/js/geometric-figures/rectangle-calculations.js"></script>
+        <script src="../../assets/js/geometric-figures/triangle-calculations.js"></script>
     </body>
 </html>
