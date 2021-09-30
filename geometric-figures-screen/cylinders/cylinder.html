@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../assets/css/index.css">
+        <link rel="stylesheet" href="../../assets/css/forms.css">
+        <title> Physical Calculator </title>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="../../" class="active"> Home </a>
+                <a href="../../geometric-figures-screen/rectangles-screen.html"> Rectangles </a>
+                <a href="../../geometric-figures-screen/triangles-screen.html"> Triangle </a>
+                <a href="#circle"> Circle </a>
+                <a href="./geometric-figures-screen/cylinder-screen.html"> Cylinder </a>
+                <a href="javascript:void(0);" class="icon" onclick="displayResponsiveNavbar()"> ≡ </a>
+            </nav>
+        </header>
+
+        <main>
+            <article class="card">
+                <section class="card-image">
+                    <img src="../../assets/images/geometric-figures/cylinders/cylinder.jpg" />
+                </section>
+                <section class="card-container">
+                    <section class="card-title">
+                        <h2> Get Area and Perimeter of Cylinder </h2>
+                        <p> Enter the Radius and Height </p>
+                    </section>
+                    <section class="card-inputs">
+                        <label for="cylinder-radius"> Radius </label>
+                        <input
+                            id="cylinder-radius"
+                            type="number"
+                            placeholder="Radius"
+                        />
+                        <label for="cylinder-height"> Height </label>
+                        <input 
+                            id="cylinder-height"
+                            type="number"
+                            placeholder="Height"
+                        />
+                    </section>
+                    <section class="card-results">
+                        <span> The Area is: </span>
+                        <p id="result-cylinder-area">  </p>
+                        <span> The Perimeter is: </span>
+                        <p id="result-cylinder-perimeter">  </p>
+                    </section>
+                    <section class="card-options">
+                        <button onclick="calculateCylinderArea()"> Get Area </button>
+                        <button onclick="calculateCylinderPerimeter()"> Get Perimeter </button>
+                    </section>
+                </section>
+            </article>
+        </main>
+        
+        <footer>
+            <a href="mailto:pxnditxyr@gmail.com"> Enrique Ricaldi </a>
+            <a href="mailto:crisffp99@gmail.com"> Cristian Fernandez </a>
+            <a href="mailto:ericksilva3@gmail.com"> Erick Fernando </a>
+            <p> Copyright 2021 </p>
+        </footer>
+        
+        <script src="../../assets/js/index.js"></script>
+        <script src="../../assets/js/geometric-figures/cylinder-calculations.js"></script>
+    </body>
+</html>
